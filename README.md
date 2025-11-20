@@ -59,3 +59,15 @@
 ---
 
 ## 🗂 Структура проекта
+
+res:// 
+    scenes/ 
+        main/ # главные сцены (меню, игра)
+        gameplay/ # сцены вылазок (уровни, комнаты) base/ # сцены базы/лаборатории
+        entities/ # игрок, дрон, враги, NPC
+        player/ 
+        drone/ 
+        enemies/ 
+        npc/ 
+        ui/ 
+        # интерфейсы (HUD, меню, окна) scripts/ systems/ # общие системы: боёвка, лут, сохранения gameplay/ # логика уровней base/ # логика базы (лаборатории, инкубатор) assets/ art/ characters/ tilesets/ ui/ fx/ audio/ sfx/ music/ data/ config/ enemies/ items/ shaders/
