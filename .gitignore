@@ -1,0 +1,107 @@
+########################
+# GODOT SPECIFIC
+########################
+
+# Godot 4 служебные папки
+.godot/
+.import/
+
+# Старые версии Godot (если вдруг)
+# .mono/ используется для C#-проектов Godot 3/4
+.mono/
+
+# Автогенерируемые профили и кеши
+*.translation
+*.pot
+
+########################
+# BUILD / EXPORT OUTPUT
+########################
+
+# Папки под билд (если будешь собирать сюда)
+bin/
+build/
+export/
+exports/
+dist/
+release/
+
+# Временные пакеты
+*.pck
+*.zip
+*.apk
+*.aab
+*.exe
+*.dmg
+*.app
+*.x86_64
+*.so
+*.dll
+
+########################
+# OS / SYSTEM TRASH
+########################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.swp
+*.swo
+
+# Общие временные файлы
+*.tmp
+*.temp
+~$*
+
+########################
+# IDE / EDITOR FILES
+########################
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains Rider / IntelliJ / WebStorm
+.idea/
+*.iml
+
+# Visual Studio / C# (на будущее)
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Mono / NuGet кеш
+.nuget/
+packages/
+obj/
+bin/
+
+########################
+# TOOLS / MISC
+########################
+
+# Python virtual env, если вдруг
+venv/
+.env/
+.env*/
+
+# Logs
+logs/
+*.log
+
+# Другие временные
+*.orig
+*.bak
+*.rej
+*.patch
