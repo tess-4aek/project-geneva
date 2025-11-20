@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://mdjwuol5oovh"]
+[gd_scene load_steps=3 format=3 uid="uid://mdjwuol5oovh"]
+
+[ext_resource type="PackedScene" uid="uid://cfk5fjbtm41qh" path="res://scenes/entities/player/player.tscn" id="1_hyk8p"]
+[ext_resource type="Texture2D" uid="uid://dumo05wpr4fe3" path="res://assets/art/tilesets/tileset_greybox_32.png" id="1_iuonh"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(261, 122)
+texture = ExtResource("1_iuonh")
+
+[node name="Player" parent="." instance=ExtResource("1_hyk8p")]
+position = Vector2(267, 109)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(2, 2)
